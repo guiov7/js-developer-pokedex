@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/pokedexIcon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <h1 id="first-title">Pokedex</h1>
+          <ul class="nav-list">
+            <li class="nav-item">What's pokedex?</li>
+            <li class="nav-item">
+              <div>
+                <label for="search">Search a Pokemon: </label>
+                <br />
+                <input type="search" id="searchSpace" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <body>
+        <main>
+
+          <section>
+            <ol id="pokemonList" class="pokemons">
+              <!-- Pokemons will be here 
+              <li class="pokemon">
+                <span class="number">#001</span>
+                <span class="name">bulbasaur</span>
+                <img class="photo" src="./assets/img/1.svg" alt="${pokemon.name}" />
+                
+                <div class="detail">
+                  <ol class="types">
+                    <li class="type">Leaf</li>
+                    <li class="type">Poison</li>
+                  </ol>
+                  
+                </div>
+              </li>
+              -->
+            </ol>
+          </section>
+          <div class="pagination">
+            <button id="loadMoreButton" type="button">Load More</button>
+          </div>
+      </main>
+      <footer>
+        <!-- rodape -->
+      </footer>
+        <!-- scripts here-->
+        <script src="./assets/js/Poke-api.js"></script>
+        <script src="./assets/js/Main.js"></script>
+        <script src="./assets/js/pokemon-model.js"></script>
+      </body>
+    </header>
+  </body>
+</html>
